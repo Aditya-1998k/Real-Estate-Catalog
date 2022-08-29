@@ -1,5 +1,8 @@
 const express=require("express");
 const mongoose=require("mongoose");
+const multer=require("multer")();
+const cors=require("cors");
+const jwt=require("jsonwebtoken")
 
 const app=express();
 
